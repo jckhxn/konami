@@ -11,5 +11,6 @@
     In konami.js reference the element and configure your callback method.
     
 # Local
-    To try it out locally clone the repo (https://github.com/jckhxn/konami) and serve it with your favorite live server.
+    To try it out locally clone the repo (https://github.com/jckhxn/konami)
+    Serve it with your favorite live server.
     Then visit your server on your mobile device.
