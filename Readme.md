@@ -5,7 +5,8 @@
 
 # Usage
     Go to the site and swipe (UP,UP,DOWN,DOWN,LEFT,RIGHT,LEFT,RIGHT,TAP,TAP)
-# Config
-    Edit variable "code" to any direction and/or combination of taps.
-    Ex. left left, tap, left left
-    An option callback function can be provided upon success entry.
+# Setup
+    On your frontend create a canvas element.
+    (It helps to make your element have a z-index above the rest of the others)
+    In konami.js reference the element and configure your callback method.
+    

@@ -1,0 +1,14 @@
+/* Set z-index of everything to minus one so canvas shows up for Konami code 🤫 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: -1;
+  }
+
+  canvas {
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+  }
+ 

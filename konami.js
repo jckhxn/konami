@@ -1,4 +1,5 @@
  // Mobile Detection.
+  const el = document.querySelector("canvas");
 
     function swipedetect(el, callback) {
       var touchsurface = el,
@@ -65,15 +66,14 @@
         false
       );
     }
-    const el = document.getElementById("detector");
+    
     let code = "upupdowndownleftrightleftrighttaptap";
     let string = "";
 
     swipedetect(el, function (swipedir) {
       //  Log swipes and compare to code.
       string = string.concat(swipedir);
-      console.log(string);
-
+     
       if (string.includes(code)) {
         alert("The princess is in another castle.");
       }
